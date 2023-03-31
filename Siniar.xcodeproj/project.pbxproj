@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		F46768BE29D600DC0034F6F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768BD29D600DC0034F6F3 /* AppDelegate.swift */; };
 		F46768C029D600DC0034F6F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768BF29D600DC0034F6F3 /* SceneDelegate.swift */; };
-		F46768C229D600DC0034F6F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768C129D600DC0034F6F3 /* ViewController.swift */; };
-		F46768C529D600DC0034F6F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46768C329D600DC0034F6F3 /* Main.storyboard */; };
 		F46768C829D600DC0034F6F3 /* Siniar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F46768C629D600DC0034F6F3 /* Siniar.xcdatamodeld */; };
 		F46768CA29D600DF0034F6F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46768C929D600DF0034F6F3 /* Assets.xcassets */; };
 		F46768CD29D600DF0034F6F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46768CB29D600DF0034F6F3 /* LaunchScreen.storyboard */; };
 		F46768D829D600DF0034F6F3 /* SiniarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768D729D600DF0034F6F3 /* SiniarTests.swift */; };
 		F46768E229D600DF0034F6F3 /* SiniarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768E129D600DF0034F6F3 /* SiniarUITests.swift */; };
 		F46768E429D600DF0034F6F3 /* SiniarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768E329D600DF0034F6F3 /* SiniarUITestsLaunchTests.swift */; };
+		F46768F429D6025C0034F6F3 /* FtuxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768F329D6025C0034F6F3 /* FtuxViewController.swift */; };
+		F46768F729D609240034F6F3 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768F629D609240034F6F3 /* ColorExtensions.swift */; };
+		F46768FA29D60B830034F6F3 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768F929D60B830034F6F3 /* PrimaryButton.swift */; };
+		F46768FC29D60D050034F6F3 /* SmallPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768FB29D60D050034F6F3 /* SmallPrimaryButton.swift */; };
+		F46768FE29D6144A0034F6F3 /* FtuxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768FD29D6144A0034F6F3 /* FtuxViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,6 @@
 		F46768BA29D600DC0034F6F3 /* Siniar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Siniar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46768BD29D600DC0034F6F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F46768BF29D600DC0034F6F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F46768C129D600DC0034F6F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F46768C429D600DC0034F6F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F46768C729D600DC0034F6F3 /* Siniar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Siniar.xcdatamodel; sourceTree = "<group>"; };
 		F46768C929D600DF0034F6F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46768CC29D600DF0034F6F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,11 @@
 		F46768DD29D600DF0034F6F3 /* SiniarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiniarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46768E129D600DF0034F6F3 /* SiniarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiniarUITests.swift; sourceTree = "<group>"; };
 		F46768E329D600DF0034F6F3 /* SiniarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiniarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F46768F329D6025C0034F6F3 /* FtuxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxViewController.swift; sourceTree = "<group>"; };
+		F46768F629D609240034F6F3 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		F46768F929D60B830034F6F3 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		F46768FB29D60D050034F6F3 /* SmallPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallPrimaryButton.swift; sourceTree = "<group>"; };
+		F46768FD29D6144A0034F6F3 /* FtuxViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,9 @@
 		F46768BC29D600DC0034F6F3 /* Siniar */ = {
 			isa = PBXGroup;
 			children = (
+				F46768F029D602380034F6F3 /* Classes */,
 				F46768BD29D600DC0034F6F3 /* AppDelegate.swift */,
 				F46768BF29D600DC0034F6F3 /* SceneDelegate.swift */,
-				F46768C129D600DC0034F6F3 /* ViewController.swift */,
-				F46768C329D600DC0034F6F3 /* Main.storyboard */,
 				F46768C929D600DF0034F6F3 /* Assets.xcassets */,
 				F46768CB29D600DF0034F6F3 /* LaunchScreen.storyboard */,
 				F46768CE29D600DF0034F6F3 /* Info.plist */,
@@ -128,6 +133,50 @@
 				F46768E329D600DF0034F6F3 /* SiniarUITestsLaunchTests.swift */,
 			);
 			path = SiniarUITests;
+			sourceTree = "<group>";
+		};
+		F46768F029D602380034F6F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F46768F829D60B650034F6F3 /* Views */,
+				F46768F529D609130034F6F3 /* Extensions */,
+				F46768F129D602420034F6F3 /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F46768F129D602420034F6F3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F46768F229D6024D0034F6F3 /* Ftux */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F46768F229D6024D0034F6F3 /* Ftux */ = {
+			isa = PBXGroup;
+			children = (
+				F46768F329D6025C0034F6F3 /* FtuxViewController.swift */,
+				F46768FD29D6144A0034F6F3 /* FtuxViewCell.swift */,
+			);
+			path = Ftux;
+			sourceTree = "<group>";
+		};
+		F46768F529D609130034F6F3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F46768F629D609240034F6F3 /* ColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F46768F829D60B650034F6F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F46768F929D60B830034F6F3 /* PrimaryButton.swift */,
+				F46768FB29D60D050034F6F3 /* SmallPrimaryButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +285,6 @@
 			files = (
 				F46768CD29D600DF0034F6F3 /* LaunchScreen.storyboard in Resources */,
 				F46768CA29D600DF0034F6F3 /* Assets.xcassets in Resources */,
-				F46768C529D600DC0034F6F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F46768C229D600DC0034F6F3 /* ViewController.swift in Sources */,
+				F46768FA29D60B830034F6F3 /* PrimaryButton.swift in Sources */,
 				F46768C829D600DC0034F6F3 /* Siniar.xcdatamodeld in Sources */,
+				F46768F729D609240034F6F3 /* ColorExtensions.swift in Sources */,
+				F46768F429D6025C0034F6F3 /* FtuxViewController.swift in Sources */,
+				F46768FC29D60D050034F6F3 /* SmallPrimaryButton.swift in Sources */,
 				F46768BE29D600DC0034F6F3 /* AppDelegate.swift in Sources */,
 				F46768C029D600DC0034F6F3 /* SceneDelegate.swift in Sources */,
+				F46768FE29D6144A0034F6F3 /* FtuxViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +353,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F46768C329D600DC0034F6F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F46768C429D600DC0034F6F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F46768CB29D600DF0034F6F3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,11 +488,12 @@
 				DEVELOPMENT_TEAM = UM5JNC6JYW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Siniar/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,9 +501,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.music.Siniar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,11 +520,12 @@
 				DEVELOPMENT_TEAM = UM5JNC6JYW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Siniar/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,9 +533,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.music.Siniar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
