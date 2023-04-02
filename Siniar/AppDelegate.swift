@@ -15,6 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
 
+    UINavigationBar.appearance().barTintColor = UIColor.Siniar.brand2
+    UINavigationBar.appearance().tintColor = UIColor.Siniar.neutral1
+    UINavigationBar.appearance().titleTextAttributes = [
+      .foregroundColor: UIColor.Siniar.neutral1
+    ]
+    UINavigationBar.appearance().largeTitleTextAttributes = [
+      .foregroundColor: UIColor.Siniar.neutral1
+    ]
+    
+    UITabBar.appearance().barTintColor = UIColor.Siniar.brand2
+
     if #available(iOS 13.0, *) {
       // Initialize in scene delegate
     } else {

@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "unsplash_ZnVynw1UwWk 2.png",
+      "filename" : "img_ftux2.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "unsplash_ZnVynw1UwWk 1.png",
+      "filename" : "img_ftux2@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "unsplash_ZnVynw1UwWk.png",
+      "filename" : "img_ftux2@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

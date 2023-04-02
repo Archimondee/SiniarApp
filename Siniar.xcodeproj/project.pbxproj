@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F43AED6629D758B40028DCC8 /* Ftux.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AED6529D758B40028DCC8 /* Ftux.swift */; };
+		F43AED6929D75A870028DCC8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AED6829D75A870028DCC8 /* MainViewController.swift */; };
+		F43AED6C29D75C980028DCC8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AED6B29D75C980028DCC8 /* HomeViewController.swift */; };
+		F43AED7029D75CD30028DCC8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AED6F29D75CD30028DCC8 /* SearchViewController.swift */; };
+		F43AED7329D75D000028DCC8 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AED7229D75D000028DCC8 /* AccountViewController.swift */; };
+		F43AED7529D764250028DCC8 /* AlbumsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AED7429D764250028DCC8 /* AlbumsViewCell.swift */; };
+		F43AED7729D766460028DCC8 /* AlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AED7629D766460028DCC8 /* AlbumViewCell.swift */; };
+		F457E8E129D809C200521EBC /* MusicViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F457E8E029D809C200521EBC /* MusicViewCell.swift */; };
 		F46768BE29D600DC0034F6F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768BD29D600DC0034F6F3 /* AppDelegate.swift */; };
 		F46768C029D600DC0034F6F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768BF29D600DC0034F6F3 /* SceneDelegate.swift */; };
 		F46768C829D600DC0034F6F3 /* Siniar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F46768C629D600DC0034F6F3 /* Siniar.xcdatamodeld */; };
@@ -40,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F43AED6529D758B40028DCC8 /* Ftux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ftux.swift; sourceTree = "<group>"; };
+		F43AED6829D75A870028DCC8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F43AED6B29D75C980028DCC8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F43AED6F29D75CD30028DCC8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F43AED7229D75D000028DCC8 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		F43AED7429D764250028DCC8 /* AlbumsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewCell.swift; sourceTree = "<group>"; };
+		F43AED7629D766460028DCC8 /* AlbumViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewCell.swift; sourceTree = "<group>"; };
+		F457E8E029D809C200521EBC /* MusicViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewCell.swift; sourceTree = "<group>"; };
 		F46768BA29D600DC0034F6F3 /* Siniar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Siniar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46768BD29D600DC0034F6F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F46768BF29D600DC0034F6F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +100,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F43AED6429D758AA0028DCC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F43AED6529D758B40028DCC8 /* Ftux.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F43AED6729D75A6D0028DCC8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F43AED6829D75A870028DCC8 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F43AED6A29D75C880028DCC8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F43AED6B29D75C980028DCC8 /* HomeViewController.swift */,
+				F43AED7429D764250028DCC8 /* AlbumsViewCell.swift */,
+				F43AED7629D766460028DCC8 /* AlbumViewCell.swift */,
+				F457E8E029D809C200521EBC /* MusicViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F43AED6D29D75CB80028DCC8 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F43AED6F29D75CD30028DCC8 /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		F43AED7129D75CF00028DCC8 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				F43AED7229D75D000028DCC8 /* AccountViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
 		F46768B129D600DB0034F6F3 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +197,7 @@
 		F46768F029D602380034F6F3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F43AED6429D758AA0028DCC8 /* Models */,
 				F46768F829D60B650034F6F3 /* Views */,
 				F46768F529D609130034F6F3 /* Extensions */,
 				F46768F129D602420034F6F3 /* Modules */,
@@ -148,6 +208,10 @@
 		F46768F129D602420034F6F3 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F43AED7129D75CF00028DCC8 /* Account */,
+				F43AED6D29D75CB80028DCC8 /* Search */,
+				F43AED6A29D75C880028DCC8 /* Home */,
+				F43AED6729D75A6D0028DCC8 /* Main */,
 				F46768F229D6024D0034F6F3 /* Ftux */,
 			);
 			path = Modules;
@@ -309,14 +373,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43AED7529D764250028DCC8 /* AlbumsViewCell.swift in Sources */,
 				F46768FA29D60B830034F6F3 /* PrimaryButton.swift in Sources */,
 				F46768C829D600DC0034F6F3 /* Siniar.xcdatamodeld in Sources */,
+				F43AED7329D75D000028DCC8 /* AccountViewController.swift in Sources */,
+				F43AED6C29D75C980028DCC8 /* HomeViewController.swift in Sources */,
 				F46768F729D609240034F6F3 /* ColorExtensions.swift in Sources */,
 				F46768F429D6025C0034F6F3 /* FtuxViewController.swift in Sources */,
 				F46768FC29D60D050034F6F3 /* SmallPrimaryButton.swift in Sources */,
+				F43AED7029D75CD30028DCC8 /* SearchViewController.swift in Sources */,
 				F46768BE29D600DC0034F6F3 /* AppDelegate.swift in Sources */,
+				F457E8E129D809C200521EBC /* MusicViewCell.swift in Sources */,
 				F46768C029D600DC0034F6F3 /* SceneDelegate.swift in Sources */,
+				F43AED6629D758B40028DCC8 /* Ftux.swift in Sources */,
 				F46768FE29D6144A0034F6F3 /* FtuxViewCell.swift in Sources */,
+				F43AED6929D75A870028DCC8 /* MainViewController.swift in Sources */,
+				F43AED7729D766460028DCC8 /* AlbumViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
