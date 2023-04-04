@@ -6,6 +6,7 @@
 //
 
 import CoreData
+import IQKeyboardManagerSwift
 import UIKit
 
 @main
@@ -23,8 +24,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     UINavigationBar.appearance().largeTitleTextAttributes = [
       .foregroundColor: UIColor.Siniar.neutral1
     ]
-    
+
     UITabBar.appearance().barTintColor = UIColor.Siniar.brand2
+    IQKeyboardManager.shared.enable = true
 
     if #available(iOS 13.0, *) {
       // Initialize in scene delegate

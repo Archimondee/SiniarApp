@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45E31D977732A2F59B751AA5 /* Pods_Siniar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A2223E7C50E6AB9ABC7ACB /* Pods_Siniar.framework */; };
+		D198DADB5D2A8EF47083FC41 /* Pods_Siniar_SiniarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0140311B04B9730FFBD4F26 /* Pods_Siniar_SiniarUITests.framework */; };
+		EDD135FE950F9FBBED557529 /* Pods_SiniarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEB4366CAFAACA1908AC182 /* Pods_SiniarTests.framework */; };
 		F43AED6629D758B40028DCC8 /* Ftux.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AED6529D758B40028DCC8 /* Ftux.swift */; };
 		F43AED6929D75A870028DCC8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AED6829D75A870028DCC8 /* MainViewController.swift */; };
 		F43AED6C29D75C980028DCC8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AED6B29D75C980028DCC8 /* HomeViewController.swift */; };
@@ -28,6 +31,18 @@
 		F46768FA29D60B830034F6F3 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768F929D60B830034F6F3 /* PrimaryButton.swift */; };
 		F46768FC29D60D050034F6F3 /* SmallPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768FB29D60D050034F6F3 /* SmallPrimaryButton.swift */; };
 		F46768FE29D6144A0034F6F3 /* FtuxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46768FD29D6144A0034F6F3 /* FtuxViewCell.swift */; };
+		F4C2B4C729DC9FAD0064736A /* PodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C2B4C629DC9FAD0064736A /* PodcastViewController.swift */; };
+		F4C2B4C929DCA47A0064736A /* PodcastDetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C2B4C829DCA47A0064736A /* PodcastDetailViewCell.swift */; };
+		F4C2B4CB29DCADD90064736A /* EpisodeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C2B4CA29DCADD90064736A /* EpisodeViewCell.swift */; };
+		F4C2B4CD29DCB83D0064736A /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C2B4CC29DCB83D0064736A /* DateExtensions.swift */; };
+		F4C2B4CF29DCB95A0064736A /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C2B4CE29DCB95A0064736A /* DoubleExtensions.swift */; };
+		F4C2B4D129DCBA3E0064736A /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C2B4D029DCBA3E0064736A /* StringExtensions.swift */; };
+		F4D0946B29D9E3730081B683 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D0946A29D9E3730081B683 /* Api.swift */; };
+		F4D0946D29D9E5EC0081B683 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D0946C29D9E5EC0081B683 /* ApiProvider.swift */; };
+		F4D0946F29D9E89B0081B683 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D0946E29D9E89B0081B683 /* SearchResponse.swift */; };
+		F4D0947129D9E8E90081B683 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D0947029D9E8E90081B683 /* Podcast.swift */; };
+		F4D0947329D9F21A0081B683 /* MoyaExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D0947229D9F21A0081B683 /* MoyaExtensions.swift */; };
+		F4D0947529D9F36A0081B683 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D0947429D9F36A0081B683 /* ErrorResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +63,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F8FBF4AE7352CD9A6FF1F41 /* Pods-SiniarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiniarTests.release.xcconfig"; path = "Target Support Files/Pods-SiniarTests/Pods-SiniarTests.release.xcconfig"; sourceTree = "<group>"; };
+		4688606D8545CB91DE18198F /* Pods-Siniar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Siniar.debug.xcconfig"; path = "Target Support Files/Pods-Siniar/Pods-Siniar.debug.xcconfig"; sourceTree = "<group>"; };
+		5CEB4366CAFAACA1908AC182 /* Pods_SiniarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiniarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A2223E7C50E6AB9ABC7ACB /* Pods_Siniar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Siniar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC37CA5E1C27DCAA3CA756E /* Pods-Siniar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Siniar.release.xcconfig"; path = "Target Support Files/Pods-Siniar/Pods-Siniar.release.xcconfig"; sourceTree = "<group>"; };
+		A0140311B04B9730FFBD4F26 /* Pods_Siniar_SiniarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Siniar_SiniarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0FE2987CA65FF6A4760CEA /* Pods-SiniarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiniarTests.debug.xcconfig"; path = "Target Support Files/Pods-SiniarTests/Pods-SiniarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6F892BE4ACB21DFACE548B5 /* Pods-Siniar-SiniarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Siniar-SiniarUITests.debug.xcconfig"; path = "Target Support Files/Pods-Siniar-SiniarUITests/Pods-Siniar-SiniarUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F43AED6529D758B40028DCC8 /* Ftux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ftux.swift; sourceTree = "<group>"; };
 		F43AED6829D75A870028DCC8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F43AED6B29D75C980028DCC8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +96,19 @@
 		F46768F929D60B830034F6F3 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		F46768FB29D60D050034F6F3 /* SmallPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallPrimaryButton.swift; sourceTree = "<group>"; };
 		F46768FD29D6144A0034F6F3 /* FtuxViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxViewCell.swift; sourceTree = "<group>"; };
+		F4C2B4C629DC9FAD0064736A /* PodcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastViewController.swift; sourceTree = "<group>"; };
+		F4C2B4C829DCA47A0064736A /* PodcastDetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastDetailViewCell.swift; sourceTree = "<group>"; };
+		F4C2B4CA29DCADD90064736A /* EpisodeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewCell.swift; sourceTree = "<group>"; };
+		F4C2B4CC29DCB83D0064736A /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		F4C2B4CE29DCB95A0064736A /* DoubleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtensions.swift; sourceTree = "<group>"; };
+		F4C2B4D029DCBA3E0064736A /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		F4D0946A29D9E3730081B683 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		F4D0946C29D9E5EC0081B683 /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
+		F4D0946E29D9E89B0081B683 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		F4D0947029D9E8E90081B683 /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		F4D0947229D9F21A0081B683 /* MoyaExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaExtensions.swift; sourceTree = "<group>"; };
+		F4D0947429D9F36A0081B683 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		F830483B42F430908E81E6EE /* Pods-Siniar-SiniarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Siniar-SiniarUITests.release.xcconfig"; path = "Target Support Files/Pods-Siniar-SiniarUITests/Pods-Siniar-SiniarUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E31D977732A2F59B751AA5 /* Pods_Siniar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD135FE950F9FBBED557529 /* Pods_SiniarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,16 +132,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D198DADB5D2A8EF47083FC41 /* Pods_Siniar_SiniarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70DD18EA2E57759CBC5C558E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A2223E7C50E6AB9ABC7ACB /* Pods_Siniar.framework */,
+				A0140311B04B9730FFBD4F26 /* Pods_Siniar_SiniarUITests.framework */,
+				5CEB4366CAFAACA1908AC182 /* Pods_SiniarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2BE6A13AFE74244790C8FD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4688606D8545CB91DE18198F /* Pods-Siniar.debug.xcconfig */,
+				9AC37CA5E1C27DCAA3CA756E /* Pods-Siniar.release.xcconfig */,
+				B6F892BE4ACB21DFACE548B5 /* Pods-Siniar-SiniarUITests.debug.xcconfig */,
+				F830483B42F430908E81E6EE /* Pods-Siniar-SiniarUITests.release.xcconfig */,
+				AC0FE2987CA65FF6A4760CEA /* Pods-SiniarTests.debug.xcconfig */,
+				2F8FBF4AE7352CD9A6FF1F41 /* Pods-SiniarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F43AED6429D758AA0028DCC8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				F43AED6529D758B40028DCC8 /* Ftux.swift */,
+				F4D0946E29D9E89B0081B683 /* SearchResponse.swift */,
+				F4D0947029D9E8E90081B683 /* Podcast.swift */,
+				F4D0947429D9F36A0081B683 /* ErrorResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -131,6 +196,9 @@
 			isa = PBXGroup;
 			children = (
 				F43AED6F29D75CD30028DCC8 /* SearchViewController.swift */,
+				F4C2B4C629DC9FAD0064736A /* PodcastViewController.swift */,
+				F4C2B4C829DCA47A0064736A /* PodcastDetailViewCell.swift */,
+				F4C2B4CA29DCADD90064736A /* EpisodeViewCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -150,6 +218,8 @@
 				F46768D629D600DF0034F6F3 /* SiniarTests */,
 				F46768E029D600DF0034F6F3 /* SiniarUITests */,
 				F46768BB29D600DC0034F6F3 /* Products */,
+				C2BE6A13AFE74244790C8FD9 /* Pods */,
+				70DD18EA2E57759CBC5C558E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +267,7 @@
 		F46768F029D602380034F6F3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F4D0946929D9E35A0081B683 /* API */,
 				F43AED6429D758AA0028DCC8 /* Models */,
 				F46768F829D60B650034F6F3 /* Views */,
 				F46768F529D609130034F6F3 /* Extensions */,
@@ -230,6 +301,10 @@
 			isa = PBXGroup;
 			children = (
 				F46768F629D609240034F6F3 /* ColorExtensions.swift */,
+				F4D0947229D9F21A0081B683 /* MoyaExtensions.swift */,
+				F4C2B4CC29DCB83D0064736A /* DateExtensions.swift */,
+				F4C2B4CE29DCB95A0064736A /* DoubleExtensions.swift */,
+				F4C2B4D029DCBA3E0064736A /* StringExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -243,6 +318,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		F4D0946929D9E35A0081B683 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F4D0946A29D9E3730081B683 /* Api.swift */,
+				F4D0946C29D9E5EC0081B683 /* ApiProvider.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -250,9 +334,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F46768E729D600DF0034F6F3 /* Build configuration list for PBXNativeTarget "Siniar" */;
 			buildPhases = (
+				7F03C0074948557808E475BB /* [CP] Check Pods Manifest.lock */,
 				F46768B629D600DC0034F6F3 /* Sources */,
 				F46768B729D600DC0034F6F3 /* Frameworks */,
 				F46768B829D600DC0034F6F3 /* Resources */,
+				35301E9B787E22B5931D4E96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -267,6 +353,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F46768EA29D600DF0034F6F3 /* Build configuration list for PBXNativeTarget "SiniarTests" */;
 			buildPhases = (
+				2E7BECE2E23CD5F4E852B2CD /* [CP] Check Pods Manifest.lock */,
 				F46768CF29D600DF0034F6F3 /* Sources */,
 				F46768D029D600DF0034F6F3 /* Frameworks */,
 				F46768D129D600DF0034F6F3 /* Resources */,
@@ -285,9 +372,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F46768ED29D600DF0034F6F3 /* Build configuration list for PBXNativeTarget "SiniarUITests" */;
 			buildPhases = (
+				618A52EA656EBB73BB886566 /* [CP] Check Pods Manifest.lock */,
 				F46768D929D600DF0034F6F3 /* Sources */,
 				F46768DA29D600DF0034F6F3 /* Frameworks */,
 				F46768DB29D600DF0034F6F3 /* Resources */,
+				AAE47D57B3B5ED15F07F38FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -323,7 +412,7 @@
 				};
 			};
 			buildConfigurationList = F46768B529D600DC0034F6F3 /* Build configuration list for PBXProject "Siniar" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -368,27 +457,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E7BECE2E23CD5F4E852B2CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiniarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35301E9B787E22B5931D4E96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Siniar/Pods-Siniar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Siniar/Pods-Siniar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Siniar/Pods-Siniar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		618A52EA656EBB73BB886566 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Siniar-SiniarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F03C0074948557808E475BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Siniar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE47D57B3B5ED15F07F38FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Siniar-SiniarUITests/Pods-Siniar-SiniarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Siniar-SiniarUITests/Pods-Siniar-SiniarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Siniar-SiniarUITests/Pods-Siniar-SiniarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F46768B629D600DC0034F6F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D0946F29D9E89B0081B683 /* SearchResponse.swift in Sources */,
 				F43AED7529D764250028DCC8 /* AlbumsViewCell.swift in Sources */,
 				F46768FA29D60B830034F6F3 /* PrimaryButton.swift in Sources */,
 				F46768C829D600DC0034F6F3 /* Siniar.xcdatamodeld in Sources */,
 				F43AED7329D75D000028DCC8 /* AccountViewController.swift in Sources */,
 				F43AED6C29D75C980028DCC8 /* HomeViewController.swift in Sources */,
+				F4D0946B29D9E3730081B683 /* Api.swift in Sources */,
 				F46768F729D609240034F6F3 /* ColorExtensions.swift in Sources */,
 				F46768F429D6025C0034F6F3 /* FtuxViewController.swift in Sources */,
 				F46768FC29D60D050034F6F3 /* SmallPrimaryButton.swift in Sources */,
 				F43AED7029D75CD30028DCC8 /* SearchViewController.swift in Sources */,
+				F4C2B4C729DC9FAD0064736A /* PodcastViewController.swift in Sources */,
 				F46768BE29D600DC0034F6F3 /* AppDelegate.swift in Sources */,
 				F457E8E129D809C200521EBC /* MusicViewCell.swift in Sources */,
 				F46768C029D600DC0034F6F3 /* SceneDelegate.swift in Sources */,
+				F4D0947129D9E8E90081B683 /* Podcast.swift in Sources */,
 				F43AED6629D758B40028DCC8 /* Ftux.swift in Sources */,
 				F46768FE29D6144A0034F6F3 /* FtuxViewCell.swift in Sources */,
+				F4C2B4C929DCA47A0064736A /* PodcastDetailViewCell.swift in Sources */,
+				F4D0946D29D9E5EC0081B683 /* ApiProvider.swift in Sources */,
 				F43AED6929D75A870028DCC8 /* MainViewController.swift in Sources */,
+				F4D0947529D9F36A0081B683 /* ErrorResponse.swift in Sources */,
+				F4C2B4CF29DCB95A0064736A /* DoubleExtensions.swift in Sources */,
+				F4C2B4CB29DCADD90064736A /* EpisodeViewCell.swift in Sources */,
+				F4C2B4D129DCBA3E0064736A /* StringExtensions.swift in Sources */,
+				F4D0947329D9F21A0081B683 /* MoyaExtensions.swift in Sources */,
 				F43AED7729D766460028DCC8 /* AlbumViewCell.swift in Sources */,
+				F4C2B4CD29DCB83D0064736A /* DateExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +756,7 @@
 		};
 		F46768E829D600DF0034F6F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4688606D8545CB91DE18198F /* Pods-Siniar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -584,6 +789,7 @@
 		};
 		F46768E929D600DF0034F6F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC37CA5E1C27DCAA3CA756E /* Pods-Siniar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -616,6 +822,7 @@
 		};
 		F46768EB29D600DF0034F6F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0FE2987CA65FF6A4760CEA /* Pods-SiniarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -636,6 +843,7 @@
 		};
 		F46768EC29D600DF0034F6F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8FBF4AE7352CD9A6FF1F41 /* Pods-SiniarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -656,6 +864,7 @@
 		};
 		F46768EE29D600DF0034F6F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F892BE4ACB21DFACE548B5 /* Pods-Siniar-SiniarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -674,6 +883,7 @@
 		};
 		F46768EF29D600DF0034F6F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F830483B42F430908E81E6EE /* Pods-Siniar-SiniarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -29,6 +29,7 @@ class MusicViewCell: UITableViewCell {
 
   required init?(coder: NSCoder) {
     super.init(coder: coder)
+    setup()
   }
 
   override func awakeFromNib() {
@@ -50,7 +51,7 @@ class MusicViewCell: UITableViewCell {
     contentStackView.alignment = .fill
     contentStackView.distribution = .fill
     contentStackView.spacing = 20
-
+//        contentStackView.isUserInteractionEnabled = false
     contentStackView.translatesAutoresizingMaskIntoConstraints = false
     NSLayoutConstraint.activate([
       contentStackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 24),
@@ -62,7 +63,6 @@ class MusicViewCell: UITableViewCell {
     let noLabel = UILabel(frame: .zero)
     contentStackView.addArrangedSubview(noLabel)
     self.noLabel = noLabel
-
     noLabel.textColor = .white
     noLabel.font = UIFont.systemFont(ofSize: 14, weight: .regular)
     noLabel.setContentHuggingPriority(.defaultHigh, for: .horizontal)
@@ -89,7 +89,7 @@ class MusicViewCell: UITableViewCell {
     let titleLabel = UILabel(frame: .zero)
     titleStackView.addArrangedSubview(titleLabel)
     self.titleLabel = titleLabel
-    noLabel.textColor = .white
+    titleLabel.textColor = .white
     titleLabel.font = UIFont.systemFont(ofSize: 16, weight: .regular)
     titleLabel.setContentHuggingPriority(.defaultLow, for: .horizontal)
 
